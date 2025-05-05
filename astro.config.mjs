@@ -23,13 +23,62 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Calendar", slug: "resources/calendar" },
             { label: "Submit", slug: "resources/submit" },
+            {
+              label: "Community Waste Collection",
+              slug: "resources/waste-collection",
+            },
+            { label: "Neighborhood associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
-            { label: "Example Guide", slug: "guides/example" },
           ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Guides",
+          autogenerate: { directory: "guides" },
+        },
+        {
+          label: "Other Resources",
+          items: [
+            {
+              label: "PDX Bike Events",
+              link: "https://www.shift2bikes.org/calendar/",
+              attrs: { target: "_blank" },
+            },
+            {
+              label: "PDX Pipeline",
+              link: "https://www.pdxpipeline.com/category/north-portland/",
+              attrs: { target: "_blank" },
+            },
+            {
+              label: "PDX Reporter",
+              link: "https://pdxreporter.org/",
+              attrs: { target: "_blank" },
+            },
+            {
+              label: "St. Johns food share",
+              link: "https://stjohnsfoodshare.org/",
+              attrs: { target: "_blank" },
+            },
+          ],
+        },
+        {
+          label: "News",
+          items: [
+            {
+              label: "North Peninsula Review",
+              link: "https://northpeninsulareview.com",
+              attrs: { target: "_blank" },
+            },
+            {
+              label: "St. Johns review",
+              link: "https://stjohnsreview.com/",
+              attrs: { target: "_blank" },
+            },
+            {
+              label: "Hollywood Star News",
+              link: "https://star-news.info/index.html",
+              attrs: { target: "_blank" },
+            },
+          ],
         },
       ],
     }),
