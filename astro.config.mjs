@@ -10,6 +10,7 @@ export default defineConfig({
   integrations: [
     starlight({
       plugins: [catppuccin()],
+      favicon: "./src/assets/logo/north-sm.png",
       customCss: [
         // Path to your Tailwind base styles:
         "./src/styles/global.css",
