@@ -1,0 +1,41 @@
+---
+title: Welcome To North Portland Events
+description: Get started building your docs site with Starlight.
+template: doc
+tableOfContents: false
+hero:
+  tagline: Congrats on setting up a new Starlight project!
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Example Guide
+      link: /guides/example/
+      icon: right-arrow
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+<div class="min-h-200 border-2" >
+    <iframe class="h-200" width="100%" height="100%" margin="0px, auto" display="block" src="https://calendar.google.com/calendar/embed?height=700&amp;wkst=1&amp;ctz=America%2FLos_Angeles&amp;bgcolor=%23ffffff&amp;mode=AGENDA&amp;showCalendars=0&amp;src=MDg4ZjQ2ZDk2YTk5YjUzZmIzYWJlZGVjNGJiZmE4ZjY0YTlkYmM5MGQ2ZjI0NTNiMWE2MWZlOTU5ZjZkNGY2ZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%238E24AA" frameborder="0"></iframe>
+</div>
+
+## Next steps
+<CardGrid >
+	<Card title="Update content" icon="pencil">
+		Edit `src/content/docs/index.mdx` to see this page change.
+	</Card>
+	<Card title="Add new content" icon="add-document">
+		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	</Card>
+	<Card title="Configure your site" icon="setting">
+		Edit your `sidebar` and other config in `astro.config.mjs`.
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+</CardGrid>
