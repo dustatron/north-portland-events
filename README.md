@@ -1,54 +1,74 @@
-# Starlight Starter Kit: Basics
+# Nort Portland Events
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Welcome to Nort Portland Events, your one-stop destination for community resources and event information in North Portland. Whether you're looking to plan a block party or need useful details about your residence, we've got you covered.
 
-```
-npm create astro@latest -- --template starlight
-```
+## Features
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+- **Event Calendar**: Stay up-to-date with all the events happening in North Portland.
+- **Community Resources**: Access a wealth of information to help you make the most of your time in North Portland.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Getting Started
 
-## 🚀 Project Structure
+Nort Portland Events is built using Astro, a modern static site framework. To get started, follow these steps:
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/your-repo/nort-portland-events.git
+   cd nort-portland-events
+   ```
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+2. **Install Dependencies**:
+   ```sh
+   npm install
+   ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+3. **Start the Development Server**:
+   ```sh
+   npm run dev
+   ```
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+4. **Build the Project**:
+   ```sh
+   npm run build
+   ```
 
-Static assets, like favicons, can be placed in the `public/` directory.
+5. **Preview the Project**:
+   ```sh
+   npm run preview
+   ```
 
-## 🧞 Commands
+## Contributing
 
-All commands are run from the root of the project, from a terminal:
+We welcome contributions from the community. If you'd like to contribute, please follow these guidelines:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+1. **Fork the Repository**:
+   ```sh
+   git fork https://github.com/your-repo/nort-portland-events.git
+   ```
 
-## 👀 Want to learn more?
+2. **Create a New Branch**:
+   ```sh
+   git checkout -b feature/your-feature
+   ```
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+3. **Make Your Changes**:
+   - Update the codebase as needed.
+   - Ensure all tests pass.
+
+4. **Commit Your Changes**:
+   ```sh
+   git commit -m "Add your feature"
+   ```
+
+5. **Push to Your Fork**:
+   ```sh
+   git push origin feature/your-feature
+   ```
+
+6. **Create a Pull Request**:
+   - Go to the repository on GitHub.
+   - Click on "Pull Requests" and create a new pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
