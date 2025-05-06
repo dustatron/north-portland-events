@@ -29,7 +29,7 @@ export default defineConfig({
               label: "Community Waste Collection",
               slug: "resources/waste-collection",
             },
-            { label: "Neighborhood associations", slug: "resources/na-list" },
+            { label: "Neighborhood Associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
           ],
         },

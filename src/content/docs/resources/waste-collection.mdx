@@ -2,6 +2,169 @@
 title: Waste Collection Event
 description: Community waste collection event
 tableOfContents: true
+date: Coming Soon...
+time: Coming Soon...
 ---
 
-details coming soon...
+<div class="">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+      <span class="text-green-600">
+        Waste
+      </span>
+      
+      Collection
+      Event
+    </h1>
+
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between">
+      <div class="mb-4 md:mb-0">
+        <div class="text-lg font-semibold dark:text-gray-200">Date: {frontmatter.date}</div>
+        <div class="text-lg font-semibold dark:text-gray-200">Time: {frontmatter.time}</div>
+      </div>
+      <a href="https://www.signupgenius.com/go/10C084EAEAE2AA2FFC70-arbor" alt="sign up to volunteer">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Volunteer
+        </button>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="mb-8 text-2xl">
+ 
+    ## Where:
+    <div class="text-gray-700 mb-4 dark:text-gray-300">
+      By Chief Joseph Elementary School
+    </div>
+    <div class="mb-4 dark:text-gray-200">
+      North Delaware Ave. Portland Oregon
+    </div>
+
+    <div class="border p-4 rounded-lg mb-4 dark:border-gray-700">
+      <div class="flex flex-1/2 justify-between align-middle content-center">
+        <h2 class="text-xl font-bold md:mr-4 text-center">
+          Arbor Lodge Park
+        </h2>
+         <div class="text-green-600 font-semibold text-center align-middle">
+          $10 Donation per waste drop
+        </div>
+      </div>
+
+      <img class="w-full h-auto rounded-lg" src="https://res.cloudinary.com/dtqlulaog/image/upload/v1690655686/alna/wnlekhcondzpbxv3vjfv.png" alt="arbor lodge park map" />
+    </div>
+
+    <div class="text-gray-800 dark:text-gray-200">
+      <p class="mb-4">
+        Join us for this year's community waste collection event and drop off your unwanted household items.
+      </p>
+      <p class="mb-4">
+        The event will be located on North Delaware ave. between North Saratoga Street and North Dekum Street.
+      </p>
+      <p class="mb-4">
+        It will happen on September 30th, 2025 between 10:00am and 2:00pm.
+      </p>
+      <p>
+        This event is a collaborative effort by the Arbor Lodge, Kenton, and Overlook Neighborhood Associations, made possible by generous donations from our sponsors.
+      </p>
+    </div>
+
+  </div>
+
+<div class="mb-8">
+  ## What To Bring:
+  <ul class="list-disc list-inside text-gray-800 dark:text-gray-200">
+    <li> House hold Junk</li>
+    <li> Metal</li>
+    <li> Electronics</li>
+    <li> Microwaves</li>
+    <li> Block Styrofoam - <span class="font-bold">no peanuts or film</span></li>
+    <li> Clear #1 plastic clam shells</li>
+    <li> Clear plastic bag - <span class="font-bold">bread bags, zip locks</span></li>
+  </ul>
+</div>
+
+<div class="mb-8">
+  
+  ## What <span class="font-bold">Not</span> To Bring:
+  
+  <ul class="list-disc list-inside text-gray-800 dark:text-gray-200">
+    <li>Painted Items</li>
+    <li>Any construction/remodeling waste materials</li>
+    <li>Yard Debris, Kitchen waste, dirt or stumps</li>
+    <li>Commercial or hazardous waste </li>
+    <li>Concrete, constrictors loads, any foam or asbestos</li>
+    <li>Batteries</li>
+    <li> Demolition debris (Tiles, Plaster, Shingles, Ceiling, Insulation, Electrical wire, Fireproofing) </li>
+    <li>Starch or Styrofoam peanuts, PE, PP Foam</li>
+    <li>Clothing, Shoes, or Fabrics</li>
+  </ul>
+</div>
+
+{" "}
+
+<div>
+  ## sponsors:
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {[
+      {
+        img: "dwdc7ahmqkjmf8dpgbag",
+        link: "https://www.elburritoazteca.com",
+        alt: "El Burrito Azteca",
+      },
+      // { img: 'l8jrwofoz0kynxngydgi', link: 'https://www.kentonstationportland.com', alt: 'Kenton Station' },
+      {
+        img: "fh0m4od7vjpn6walytql",
+        link: "https://www.originalsexycoffee.com",
+        alt: "Grind House Coffee",
+      },
+      {
+        img: "c6kueus00zmp3gwgvkay",
+        link: "https://www.ridwell.com",
+        alt: "Ridwell",
+      },
+      {
+        img: "dfdoylhblqm4gzmzfvwd",
+        link: "https://www.agilyx.com",
+        alt: "Agilyx",
+      },
+      {
+        img: "wzicmwdjwdbbyt981gdw",
+        link: "https://www.lesschwab.com",
+        alt: "Les Schwab",
+      },
+      {
+        img: "m0ea712r1zlvrp2olreh",
+        link: "https://www.oregonmetro.gov",
+        alt: "Metro",
+      },
+      {
+        img: "m3hmcnn78fctprwbvnqa",
+        link: "https://www.finopdx.com",
+        alt: "Pizza Fino",
+      },
+      {
+        img: "fmriqs1ymnw3qot0vljv",
+        link: "https://www.junkluggers.com",
+        alt: "The JunkLuggers",
+      },
+      {
+        img: "dn7yyqjnq0l9dx36nan4",
+        link: "https://www.posiescafe.com",
+        alt: "Posies cafe",
+      },
+    ].map((logo) => (
+      <div
+        key={logo.img}
+        class="flex justify-center items-center p-2 border rounded-lg dark:border-gray-700"
+      >
+        <a href={logo.link} target="_blank" rel="noopener noreferrer">
+          <img
+            src={`https://res.cloudinary.com/dtqlulaog/image/upload/w_150,c_scale/v1690610434/alna/${logo.img}.png`}
+            alt={logo.alt}
+            class="max-h-24 w-auto"
+          />
+        </a>
+      </div>
+    ))}
+  </div>
+</div>
