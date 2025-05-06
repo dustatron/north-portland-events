@@ -23,7 +23,7 @@ export default defineConfig({
           label: "Resources",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Calendar", slug: "resources/calendar" },
+            { label: "Calendar", slug: "index" },
             { label: "Submit", slug: "resources/submit" },
             {
               label: "Community Waste Collection",
