@@ -28,8 +28,8 @@ export default defineConfig({
             { label: "Calendar", slug: "index" },
             { label: "Submit", slug: "resources/submit" },
             {
-              label: "Community Waste Collection",
-              slug: "resources/waste-collection",
+              label: "Garbage and Recycling Day",
+              slug: "resources/garbage-day",
             },
             { label: "Neighborhood Associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
