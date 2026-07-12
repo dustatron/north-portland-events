@@ -1,13 +1,13 @@
 ---
-title: Garbage and Recycling Day
-description: Community garbage and recycling day
+title: Dumpster and Recycle Day
+description: Community dumpster and recycle day
 tableOfContents: false
 date: September 26th, 2026
 time: 10:00am - 2:00pm
 ---
 
 <p class="text-lg mb-6 text-gray-800 dark:text-gray-200">
-  Join us for this year's community garbage and recycling day and drop off your unwanted household items.
+  Join us for this year's community dumpster and recycle day and drop off your unwanted household items.
 </p>
 
 <div class="">
@@ -146,10 +146,10 @@ time: 10:00am - 2:00pm
 
   <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
     {Array.from({ length: 14 }, (_, i) => String(i + 1).padStart(2, "0")).map((n) => (
-      <button key={n} type="button" class="gd-thumb" data-gd-src={`/garbage-day/${n}.jpg`} aria-label={`View photo ${n} larger`}>
+      <button key={n} type="button" class="gd-thumb" data-gd-src={`/dumpster-day/${n}.jpg`} aria-label={`View photo ${n} larger`}>
         <img
-          src={`/garbage-day/${n}.jpg`}
-          alt={`Garbage and Recycling Day last year — photo ${n}`}
+          src={`/dumpster-day/${n}.jpg`}
+          alt={`Dumpster and Recycle Day last year — photo ${n}`}
           loading="lazy"
           class="w-full h-48 object-cover rounded-lg hover:opacity-90 transition-opacity"
         />

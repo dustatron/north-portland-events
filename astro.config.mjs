@@ -27,8 +27,8 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Calendar", slug: "index" },
             {
-              label: "Garbage and Recycling Day",
-              slug: "resources/garbage-day",
+              label: "Dumpster and Recycle Day",
+              slug: "resources/dumpster-day",
             },
             { label: "Neighborhood Associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
