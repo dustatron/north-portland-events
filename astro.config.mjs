@@ -26,13 +26,13 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Calendar", slug: "index" },
-            { label: "Submit", slug: "resources/submit" },
             {
               label: "Garbage and Recycling Day",
               slug: "resources/garbage-day",
             },
             { label: "Neighborhood Associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
+            { label: "Submit", slug: "resources/submit" },
           ],
         },
         {
