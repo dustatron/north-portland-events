@@ -30,6 +30,10 @@ export default defineConfig({
               label: "Dumpster and Recycle Day",
               slug: "resources/dumpster-day",
             },
+            {
+              label: "Shelter CAC",
+              slug: "resources/shelter-cac",
+            },
             { label: "Neighborhood Associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
             { label: "Submit", slug: "resources/submit" },
