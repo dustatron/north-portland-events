@@ -37,6 +37,7 @@ export default defineConfig({
             { label: "Neighborhood Associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
             { label: "Submit", slug: "resources/submit" },
+            { label: "Contact", slug: "resources/contact" },
           ],
         },
         {
