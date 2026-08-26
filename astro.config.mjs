@@ -30,10 +30,6 @@ export default defineConfig({
               label: "Dumpster and Recycle Day",
               slug: "resources/dumpster-day",
             },
-            {
-              label: "Shelter CAC",
-              slug: "resources/shelter-cac",
-            },
             { label: "Neighborhood Associations", slug: "resources/na-list" },
             { label: "About", slug: "resources/about" },
             { label: "Submit an Event / Contact", slug: "resources/submit" },
@@ -46,6 +42,10 @@ export default defineConfig({
         {
           label: "Other Resources",
           items: [
+            {
+              label: "Shelter CAC",
+              slug: "resources/shelter-cac",
+            },
             {
               label: "PDX Bike Events",
               link: "https://www.shift2bikes.org/calendar/",
