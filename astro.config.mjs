@@ -77,6 +77,11 @@ export default defineConfig({
           label: "News",
           items: [
             {
+              label: "Kenton Neighborhood News",
+              link: "https://www.kentonpdx.org/news",
+              attrs: { target: "_blank" },
+            },
+            {
               label: "North Peninsula Review",
               link: "https://northpeninsulareview.com",
               attrs: { target: "_blank" },
